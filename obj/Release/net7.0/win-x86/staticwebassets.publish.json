@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hCm6jvJLVUtVo9+yDTc9b0y9KhDuhbeqRMkuo/txDlU=",
+  "Source": "shoppingWebApi",
+  "BasePath": "_content/shoppingWebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

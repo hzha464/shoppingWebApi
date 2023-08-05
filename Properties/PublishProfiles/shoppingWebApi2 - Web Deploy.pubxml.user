@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASSI6o+VpWU+TW7YmTcplaAAAAAACAAAAAAAQZgAAAAEAACAAAADJcXFM/y38P184vAgXZQy7q2Pz7VPBOFFx6dsBY+/uygAAAAAOgAAAAAIAACAAAAAM+oEGoPfCVZfrBLK+dHBBKOtt7jQkACBD3U6V2sV00YAAAADf/SrZJ9XsEx1tn3xNbnV8ZX3RiCGY+z1FZbBkyoNXzTvTiy9VSoc5Ka4eavSWbgXay72OcqPZHJINiW4H8WERCcfq85X/UkDhmaZewg2u1QxSJ1p541b450uecz0Hir3VfJSPuhiCT8hjyL9h37tZAWtHiQUqo9FUCAvOZq714kAAAABHFQMQqk35sUU/X1Yy6xC2csXHw0FhCRc1dI6TcOy1YwthGX9/kjG/48HbAkguATD3S7SD56ZVAJE5gdgZGC/Q</EncryptedPassword>
+    <History>True|2023-08-05T16:22:30.1212016Z;True|2023-08-06T02:08:20.5559330+12:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:hzha464.database.windows.net,1433%3bInitial Catalog=Shoping_db%3bPersist Security Info=False%3bUser ID=hzha464%3bPassword=hhxxtt100%40%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="shoppingWebApi.Data.DataContext">
+      <Value>Server=tcp:hzha464.database.windows.net,1433%3bInitial Catalog=Shoping_db%3bPersist Security Info=False%3bUser ID=hzha464%3bPassword=hhxxtt100%40%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
